@@ -10,7 +10,7 @@ export async function onRequest(context) {  // Contents of context object
      context.request
      const url = new URL(request.url);
     //在原来代码的12行的位置添加下面的内容
-const allowedDomains = ["img.zxs.me"];
+const allowedDomains = [""telegraph-image-60a.pages.dev", img.zxs.me"];
 
 // Extract the Referer header or use a placeholder if not present
 const Referer = request.headers.get('Referer') || "Referer";
